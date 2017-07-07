@@ -36,7 +36,7 @@ public class AppTest
     {
 		App app = new App();
 		long result = app.add(10, 5);
-		assertEquals("The result is not equal...", 15, result);
+		assertEquals("The result is equal...", 15, result);
         assertTrue( true );
     }
 }
