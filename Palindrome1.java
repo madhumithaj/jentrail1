@@ -20,6 +20,6 @@ class Palindrome1
       else
          System.out.println("Entered string is not a palindrome.");
  
-		System.out.println("Done...");
+		System.out.println("Done...now");
    }
 }	
