@@ -8,7 +8,7 @@ class LargestOfThreeNumbers
    {
       int x, y, z;
       System.out.println("Enter three integers ");
-      Scanner in = new Scanner(System.in)
+      Scanner in = new Scanner(System.in);
  
       x = in.nextInt();
       y = in.nextInt();
@@ -22,5 +22,6 @@ class LargestOfThreeNumbers
          System.out.println("Third number is largest.");
       else   
          System.out.println("Entered numbers are not distinct.");
+System.out.println("success...");
    }
 }
