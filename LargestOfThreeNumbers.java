@@ -8,7 +8,7 @@ class LargestOfThreeNumbers
    {
       int x, y, z;
       System.out.println("Enter three integers ");
-      Scanner in = new Scanner(System.in);
+      Scanner in = new Scanner(System.in)
  
       x = in.nextInt();
       y = in.nextInt();
@@ -16,7 +16,7 @@ class LargestOfThreeNumbers
  
       if ( x > y && x > z )
          System.out.println("First number is largest.");
-      else if ( y > x && y > z );
+      else if ( y > x && y > z )
          System.out.println("Second number is largest.");
       else if ( z > x && z > y )
          System.out.println("Third number is largest.");
