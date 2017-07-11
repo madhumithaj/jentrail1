@@ -1,4 +1,4 @@
-
+package com.madhumitha;
 
 import java.util.Scanner;
  
@@ -23,5 +23,6 @@ class LargestOfThreeNumbers
       else   
          System.out.println("Entered numbers are not distinct.");
 System.out.println("success...")
+
    }
 }

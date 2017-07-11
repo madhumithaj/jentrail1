@@ -1,3 +1,5 @@
+package com.madhumitha;
+
 import java.util.*;
  
 class Palindrome1
