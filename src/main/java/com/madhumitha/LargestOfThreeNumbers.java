@@ -22,7 +22,8 @@ class LargestOfThreeNumbers
          System.out.println("Third number is largest.");
       else   
          System.out.println("Entered numbers are not distinct.");
-System.out.println("success... 123");
+System.out.println("success... 123...1");
+System.out.println("working good ...!!!!");
 
    }
 }
