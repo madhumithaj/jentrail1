@@ -15,4 +15,16 @@
       <scope>test</scope>
     </dependency>
   </dependencies>
+  <distributionManagement>
+    <repository>
+        <id>central</id>
+        <name>vm1-releases</name>
+        <url>http://localhost:8081/artifactory/madhu-release-local</url>
+    </repository>
+    <snapshotRepository>
+        <id>snapshots</id>
+        <name>vm1-snapshots</name>
+        <url>http://localhost:8081/artifactory/madhu-release-local</url>
+    </snapshotRepository>
+</distributionManagement>
 </project>
